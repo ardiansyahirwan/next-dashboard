@@ -18,12 +18,12 @@ export default function Page() {
             <br/>
           <span className={`text-gray-600 tracking-widest text-xl md:text-2xl ${lusitana.className}`}>This is e-commerce platform for order a product</span>
           </p>
-          <Link
+          <a
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
             href="/login"
           >
             <span className={`${lusitana.className} text-lg font-medium`}>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
-          </Link>
+          </a>
         </div>
 
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
